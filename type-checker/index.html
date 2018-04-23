@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Type Toys -- Type Explorer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <script src="./js/signet.min.js"></script>
+    <script src="./js/type-setup.js"></script>
+    <script src="./js/type-explorer.js"></script>
+    <script src="./js/type-experimenter.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Signet Type Playground</h1>
+        <div class="type-explorer">
+            <section>
+                <h3>Type Explorer: </h3>
+                <section>
+                    <label for="types-select">Select A Type</label>
+                    <select name="types" id="types-select">
+                        <option value="no type">Choose a Type</option>
+                    </select>
+                </section>
+            </section>
+
+            <section id="type-info">
+                &nbsp;
+            </section>
+        </div>
+
+        <div class="type-experimenter">
+            <h3>Type Experimenter: </h3>
+            <section class="type-string-entry">
+                <label for="type-string-input">Type String</label>
+                <input type="text" id="type-string-input">
+            </section>
+
+            <section class="value-expression">
+                <label for="value-expression-input">Value Expression</label>
+                <p class="field-info">
+                    JSON only, object keys must be strings.
+                    Empty value and undefined literal are okay.
+                </p>
+                <textarea id="value-expression-input"></textarea>
+            </section>
+
+            <section>
+                <button id="test-expression">Test Value Type</button>
+            </section>
+
+            <section id="test-run-output">
+
+            </section>
+        </div>
+    </div>
+
+</body>
+
+</html>

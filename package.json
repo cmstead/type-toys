@@ -1,0 +1,22 @@
+{
+  "name": "type-toys",
+  "version": "1.0.0",
+  "description": "Type toys you can play with in the browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmstead/type-toys.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmstead/type-toys/issues"
+  },
+  "homepage": "https://github.com/cmstead/type-toys#readme",
+  "dependencies": {
+    "signet": "^6.6.2"
+  }
+}
